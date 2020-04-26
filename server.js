@@ -16,7 +16,7 @@ if (process.env.NODE_ENV === "production") {
   // need to create mongo db via heroku
     "mongodb://<username>:<password>@ds163757.mlab.com:63757/heroku_36zj5n7k";
 } else {
-  databaseToUse = "mongodb://localhost/reactBoilerplate";
+  databaseToUse = "mongodb://localhost/reactBoilerplates";
 }
 
 app.use(routes);
