@@ -13,8 +13,8 @@ var databaseToUse = "";
 if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));
   databaseToUse =
-  // need to create mongo db via heroku
-    "mongodb://<username>:<password>@ds163757.mlab.com:63757/heroku_36zj5n7k";
+    // need to create mongo db via heroku
+    "mongodb://username1:password1@ds215709.mlab.com:15709/heroku_pb1g037v";
 } else {
   databaseToUse = "mongodb://localhost/reactBoilerplates";
 }
